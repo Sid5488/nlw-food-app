@@ -20,6 +20,8 @@ const Layout = () => {
 
 	if (!fontsLoaded) return <Loading />;
 
+	console.log("I'm develop branch!");
+
 	return (
 		<SafeAreaView className="bg-slate-900 flex-1">
 			<Slot></Slot>
